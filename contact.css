@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #131517;
+    height: 140vh;
+}
+
+.bashisse {
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-size: 3em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text1 {
+    color: slategrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.orta {
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.xBox {
+    color: white;
+    margin-left: 45em;
+}
+
+.xBox i {
+    font-size: 1em;
+}
+
+
+.left {
+    height: 65vh;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    width: 40%;
+    height: 60vh;
+}
+
+.input1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input2,
+.input3 {
+    margin-top: 5.2vh;
+}
+
+.text {
+    margin-bottom: 5vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3vh;
+    padding-right: 56vh;
+}
+
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1d1d1d;
+    transition: 0.3s all;
+    height: 7vh;
+    width: 50vh;
+}
+
+input:hover {
+    border-bottom: 3px solid green;
+}
+
+.subjj {
+    width: 100%;
+}
+
+.mess {
+    width: 100%;
+    height: 40vh;
+    text-align: left;
+    padding-bottom: 35vh;
+}
+
+.smes {
+    margin-top: 40vh;
+    height: 9vh;
+    border-radius: 100px;
+    width: 25vh;
+    color: white;
+    background-color: green;
+    margin-left: 3vh;
+    cursor: pointer;
+}
+
+.lorem {
+    margin-left: 2vh;
+    margin-top: 1vh;
+    font-size: 1.1em;
+    letter-spacing: 0.02em;
+    padding-bottom: 7vh;
+    color: slategrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightalt {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fonts {
+    color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.yazilarim {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: medium;
+}
+
+.nm {
+    font-size: 1.3em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nm1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: slategrey;
+}
+
+i {
+    font-size: 2em;
+}
+
+hr {
+    color: #1d1d1d;
+    height: 50vh;
+}
+
+.lorem1 {
+    display: none;
+}
+.smes1 {
+    display: none;
+}
+
+
+
+
+
+/* Çubuğun stilini belirleyin */
+.bar {
+    margin: 0 auto;
+    width: 20px;
+    /* Çubuğun başlangıç genişliği */
+    height: 4px;
+    background-color: greenyellow;
+    /* Başlangıç rengi */
+    animation: barAnimation 2s infinite alternate;
+    /* Animasyon adı, süre, yineleme ve yönlendirme */
+}
+
+/* Animasyonu tanımlayın */
+@keyframes barAnimation {
+    from {
+        width: 0px;
+        background-color: green;
+    }
+
+    /* Başlangıç durumu */
+    to {
+        width: 150px;
+        background-color: greenyellow;
+    }
+
+    /* Bitiş durumu */
+}
+
+/* Responsivlik */
+
+@media (max-width: 480px) {
+
+    .xBox {
+        display: none;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input1 {
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+    }
+
+    .input1 input {
+        width: 160%;
+        margin-left: 2vh;
+    }
+
+    .input2 input {
+        width: 160%;
+        margin-left: 2vh;
+    }
+
+    .input3 input {
+        width: 160%;
+        margin-left: 2vh;
+    }
+
+    .mess {
+        width: 100%;
+        height: 15vh;
+        overflow: auto;
+        padding-bottom: 0.1vh;
+    }
+
+    .right {
+        
+        margin-top: 48em;
+    }
+
+    .fonts {
+        margin-right: 3rem;
+    }
+
+    .hr {
+        margin-right: 2rem;
+    }
+
+    .nm1 {
+        font-size: small;
+        letter-spacing: 0.05em;
+        width: 110%;
+    }
+
+    .yazilarim {
+        margin-right: 19rem;
+    }
+
+    .lefttext {
+        font-size: xx-large;
+        width: 30vh;
+    }
+
+    .righttext {
+        position: absolute;
+        margin-top: 42rem;
+        font-size: xx-large;
+    }
+
+    .lorem1 {
+        display: block;
+        position: absolute;
+        margin-top: 48rem;
+        font-size: medium;
+        color: slategrey;
+        letter-spacing: 0.1em;
+        line-height: 15px;
+    }
+
+    .smes1 {
+        display: block;
+        position: absolute;
+        margin-top: 3vh;
+        width: 40%;
+        height: 6vh;
+        color: white;
+        background-color: green;
+        margin-left: 2vh;
+        cursor: pointer;
+        border-radius: 25px;
+    }
+
+    .smes {
+        display: none;
+    }
+
+    .lorem{
+        display: none;
+    }
+}

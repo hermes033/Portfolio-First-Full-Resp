@@ -1,0 +1,488 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121417;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 3em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 1.1em;
+    color: grey
+}
+
+.paragraf {
+    line-height: 25px;
+}
+
+.bash {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+}
+
+.gif {
+    margin: 0 auto;
+    width: 20px;
+    /* Çubuğun başlangıç genişliği */
+    height: 4px;
+    background-color: greenyellow;
+    /* Başlangıç rengi */
+    animation: barAnimation 2s infinite alternate;
+    /* Animasyon adı, süre, yineleme ve yönlendirme */
+}
+
+/* Animasyonu tanımlayın */
+@keyframes barAnimation {
+    from {
+        width: 100px;
+        background-color: green;
+    }
+
+    /* Başlangıç durumu */
+    to {
+        width: 200px;
+        background-color: rgb(20, 200, 92);
+    }
+
+    /* Bitiş durumu */
+}
+
+.xBox {
+    margin-left: 60em;
+}
+
+.orta {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.orta-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90vh;
+    height: 500px;
+}
+
+.right-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+}
+
+.emma {
+    font-size: 2.4em;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.orta-right>h3 {
+    color: rgb(0, 128, 75);
+    font-size: 1.5em;
+}
+
+.adi {
+    font-size: 18px;
+    color: grey;
+}
+
+.name-age,
+.email>h3 {
+    color: white;
+}
+
+.name-age,
+.email {
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.atag {
+    color: rgb(0, 128, 75);
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.download {
+    border-radius: 25px;
+    width: 180px;
+    height: 45px;
+    background-color: #009e66;
+    color: white;
+    font-size: 1.1em;
+}
+
+.button {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.icons {
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+i {
+    font-size: 1.5em;
+    color: white;
+}
+
+.hr {
+    width: 100px;
+}
+
+.xett {
+    border: 1px solid grey;
+    width: 70px;
+}
+
+/* second part */
+.services {
+    margin: 0 auto;
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+.service-ichi {
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    justify-content: space-between;
+}
+
+.gray {
+    color: gray;
+    font-size: 1.1em;
+}
+
+.design {
+    background-color: rgba(43, 41, 41, 0.582);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    width: 31%;
+    height: 270px;
+    padding: 0 1.5em;
+}
+
+.trends {
+    color: white;
+    font-size: 1.5em;
+}
+
+.icon>i {
+    font-size: 2.5em;
+    color: rgb(10, 112, 82);
+}
+
+.up,
+.down {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.down {
+    margin-bottom: 9em;
+}
+
+/* testimonials */
+.third-part {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 460px;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.testimonials {
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+    overflow: hidden;
+}
+
+.testimonials:hover {
+    overflow-x: auto;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    color: black;
+}
+
+.julia {
+    width: 32%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(43, 41, 41, 0.582);
+    padding: 0 2em;
+}
+
+.commentator>h4 {
+    color: white;
+    line-height: 1.3em;
+    font-size: 1.1em;
+    font-weight: 200;
+}
+
+.commentator>p {
+    line-height: 1.3em;
+}
+
+.comments {
+    display: flex;
+    justify-content: space-between;
+    width: 150%;
+    height: 360px;
+}
+
+.comment {
+    color: gray;
+    line-height: 1.3em;
+    width: 98%;
+    text-align: start;
+    font-size: large;
+}
+
+.img {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+
+/* fourth part */
+.fourth-part {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 75vh;
+    margin-top: 1em;
+}
+
+.title>h2 {
+    color: white;
+    font-size: 3em;
+    margin-top: 0.2em;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 32%;
+    height: px;
+    background-color: rgba(43, 41, 41, 0.582);
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 230px;
+    line-height: 1.2em;
+}
+
+li {
+    color: gray;
+    font-size: 1.3em;
+    list-style: none;
+    text-align: center;
+}
+
+.plan>h3 {
+    font-size: 2.2em;
+    color: white;
+}
+
+.plan>button {
+    cursor: pointer;
+    background-color: #009e66;
+    color: white;
+    border-radius: 40px;
+    width: 170px;
+    height: 40px;
+    font-weight: 300;
+    font-size: 1.1em;
+}
+
+.plan>p {
+    color: white;
+    font-size: 2em;
+    font-weight: 200;
+}
+
+.plan>i {
+    font-size: 3em;
+    color: #00804b;
+}
+
+/* responsiveness */
+@media only screen and (max-width: 768px) {
+
+    /* responsive 1 shekilli hisse */
+    .orta {
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+
+    .xBox {
+        display: none;
+    }
+
+    .orta-right {
+        width: 100%;
+        height: 600px;
+    }
+
+    .download {
+        font-size: 1em;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .icons {
+        width: 100%;
+    }
+
+    /* responsive service hisse */
+    .services {
+        width: 100%;
+        padding: 1.5em;
+        height: 190vh;
+    }
+
+    .service-ichi {
+        height: 100%;
+        width: 100%;
+    }
+
+    .design {
+        width: 100%;
+        height: 31%;
+    }
+
+    .up,
+    .down {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .third-part {
+        width: 100%;
+        height: 55em;
+        margin: -2em auto;
+    }
+
+    .testimonials {
+        width: 100%;
+        height: 100em;
+    }
+
+    .julia {
+        width: 100%;
+        height: 15em;
+    }
+
+    .comments {
+        margin-top: 4em;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 100%;
+        height: 50em;
+    }
+
+    .commentator>p {
+        line-height: 1.1em;
+    }
+
+    .comment {
+        line-height: 1.1em;
+        width: 100%;
+    }
+
+    .img {
+        width: 60%;
+    }
+
+    /* fourth part */
+    .fourth-part {
+        width: 80%;
+        height: 240vh;
+        margin-top: 100px;
+        justify-content: space-between;
+    }
+
+    .plans {
+        width: 100%;
+        height: 94%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .title>h2 {
+        color: white;
+        font-size: 3em;
+    }
+
+    .plan {
+        width: 100%;
+        height: 32%;
+    }
+}

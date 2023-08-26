@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #131517;
+    height: 325vh;
+}
+
+.bashisse {
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.xBox {
+    color: white;
+    margin-left: 90em;
+}
+
+.xBox i {
+    font-size: 2em;
+}
+
+
+h1 {
+    font-size: 4em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text1 {
+    color: slategrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.orta1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
+    padding-bottom: 2vh;
+}
+
+.box {
+    color: white;
+    border: 0.5px solid white;
+    border-left: 3px solid green;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #1b1f20;
+}
+
+.textbox {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 30vh;
+    margin: 0 auto;
+    width: 85%;
+
+}
+
+.yazi1,
+.yazi2 {
+    color: rgb(126, 130, 135);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 1.5em;
+}
+
+.orta2 {
+    margin-top: 20vh;
+}
+
+.otext1 {
+    color: rgb(126, 130, 135);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mstext {
+    font-size: 3em;
+    margin-top: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textim {
+    width: 350px;
+    margin-left: 7vh;
+}
+
+.orta21 {
+    display: flex;
+    height: 50vh;
+}
+
+.right1,
+.left1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50vh;
+    width: 150%;
+    margin: 0 7vh;
+}
+
+.line {
+    width: 100%;
+    height: 10vh;
+}
+
+.hr1 {
+    height: 1.5vh;
+    border: 1.5px solid green;
+    width: 95%;
+    background-color: green;
+
+}
+
+.hr2 {
+    height: 1.5vh;
+    border: 1.5px solid #2f2f2f;
+    width: 5%;
+    background-color: #2f2f2f;
+}
+
+.hr3 {
+    height: 1.5vh;
+    border: 1.5px solid green;
+    width: 80%;
+    background-color: green;
+}
+
+.hr4 {
+    height: 1.5vh;
+    border: 1.5px solid #2f2f2f;
+    width: 20%;
+    background-color: #2f2f2f;
+}
+
+.hr5 {
+    height: 1.5vh;
+    border: 1.5px solid green;
+    width: 90%;
+    background-color: green;
+}
+
+.hr6 {
+    height: 1.5vh;
+    border: 1.5px solid #2f2f2f;
+    width: 10%;
+    background-color: #2f2f2f;
+}
+
+.hrs {
+    margin-top: 2vh;
+    display: flex;
+}
+
+p {
+    color: white;
+}
+
+.faiz1 {
+    margin-left: 68vh;
+}
+
+.faiz2 {
+    margin-left: 55vh;
+}
+
+.faiz3 {
+    margin-left: 65vh;
+}
+
+.faiz4 {
+    margin-left: 65vh;
+}
+
+.faiz5 {
+    margin-left: 68vh;
+}
+
+.faiz6 {
+    margin-left: 55vh;
+}
+
+.orta3 {
+    margin-top: 15vh;
+}
+
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tato {
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tatotext {
+    margin-top: 3vh;
+    letter-spacing: 0.05em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: left;
+    line-height: 30px;
+    width: 90%;
+    height: 35vh;
+    color: rgb(126, 130, 135);
+}
+
+.son {
+    display: flex;
+}
+
+.left3 {
+    margin-left: 7vh;
+}
+
+.right3 {
+    margin-right: 7vh;
+}
+
+iframe {
+    border: 0.5px solid green;
+    box-shadow: 0.5px 0.5px 5px cyan;
+}
+
+/* Çubuğun stilini belirleyin */
+.bar {
+    margin: 0 auto;
+    width: 20px;
+    /* Çubuğun başlangıç genişliği */
+    height: 4px;
+    background-color: greenyellow;
+    /* Başlangıç rengi */
+    animation: barAnimation 2s infinite alternate;
+    /* Animasyon adı, süre, yineleme ve yönlendirme */
+}
+
+/* Animasyonu tanımlayın */
+@keyframes barAnimation {
+    from {
+        width: 100px;
+        background-color: green;
+    }
+
+    /* Başlangıç durumu */
+    to {
+        width: 300px;
+        background-color: greenyellow;
+    }
+
+    /* Bitiş durumu */
+}
+
+
+/* Responsivlik Mobil Telefon üçün */
+
+@media (max-width: 480px) {
+    .orta1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .orta21 {
+        display: flex;
+        flex-direction: column;
+        width: 53%;
+    }
+
+    .xBox {
+        display: none;
+    }
+
+    .faiz1 {
+        margin-left: 21vh;
+    }
+
+    .faiz2 {
+        margin-left: 16vh;
+    }
+
+    .faiz3 {
+        margin-left: 20vh;
+    }
+
+    .faiz4 {
+        margin-left: 21vh;
+    }
+
+    .faiz5 {
+        margin-left: 21vh;
+    }
+
+    .faiz6 {
+        margin-left: 16vh;
+    }
+
+    .son {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .tato {
+        font-size: 1.8rem;
+    }
+
+    .tatotext {
+        font-size: 15px;
+    }
+
+    iframe {
+        margin-top: 10rem;
+        margin-left: 2.5em;
+        width: 350px;
+        height: 350px;
+    }
+
+
+    .right3 {
+        margin-bottom: 40vh;
+    }
+
+    .otext1 {
+        margin-left: 3vh;
+    }
+
+    .mstext {
+        margin-right: 5vh;
+    }
+
+
+
+}
